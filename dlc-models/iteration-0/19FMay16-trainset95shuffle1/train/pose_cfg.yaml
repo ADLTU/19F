@@ -1,15 +1,10 @@
 all_joints:
-- - 0
-- - 1
-- - 2
-- - 3
-- - 4
-all_joints_names:
-- Head
-- Body1
-- Body2
-- Body3
-- Tail
+- [0]
+- [1]
+- [2]
+- [3]
+- [4]
+all_joints_names: [Head, Body1, Body2, Body3, Tail]
 alpha_r: 0.02
 batch_size: 1
 cropratio: 0.4
@@ -18,7 +13,7 @@ dataset_type: imgaug
 decay_steps: 30000
 display_iters: 1000
 global_scale: 0.8
-init_weights: /Users/hadi/opt/anaconda3/envs/DLC-CPU/lib/python3.7/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt
+init_weights: /usr/local/lib/python3.7/dist-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt
 intermediate_supervision: false
 intermediate_supervision_layer: 12
 location_refinement: true
@@ -31,21 +26,17 @@ metadataset: training-datasets/iteration-0/UnaugmentedDataSet_19FMay16/Documenta
 min_input_size: 64
 mirror: false
 multi_step:
-- - 0.005
-  - 10000
-- - 0.02
-  - 430000
-- - 0.002
-  - 730000
-- - 0.001
-  - 1030000
+- [0.005, 3000]
+- [0.02, 10000]
+- [0.002, 15000]
+- [0.001, 20000]
 net_type: resnet_50
 num_joints: 5
 pairwise_huber_loss: false
 pairwise_predict: false
 partaffinityfield_predict: false
 pos_dist_thresh: 17
-project_path: /Users/hadi/Documents/19F_Hadi
+project_path: /content/DLC
 rotation: 25
 rotratio: 0.4
 save_iters: 50000
