@@ -1,0 +1,6 @@
+model_checkpoint_path: "/content/DLC/dlc-models/iteration-0/19FMay16-trainset95shuffle2/train/snapshot-1600"
+all_model_checkpoint_paths: "/content/DLC/dlc-models/iteration-0/19FMay16-trainset95shuffle2/train/snapshot-1200"
+all_model_checkpoint_paths: "/content/DLC/dlc-models/iteration-0/19FMay16-trainset95shuffle2/train/snapshot-1300"
+all_model_checkpoint_paths: "/content/DLC/dlc-models/iteration-0/19FMay16-trainset95shuffle2/train/snapshot-1400"
+all_model_checkpoint_paths: "/content/DLC/dlc-models/iteration-0/19FMay16-trainset95shuffle2/train/snapshot-1500"
+all_model_checkpoint_paths: "/content/DLC/dlc-models/iteration-0/19FMay16-trainset95shuffle2/train/snapshot-1600"

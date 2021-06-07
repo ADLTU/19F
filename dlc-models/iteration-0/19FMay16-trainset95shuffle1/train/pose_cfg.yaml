@@ -26,10 +26,10 @@ metadataset: training-datasets/iteration-0/UnaugmentedDataSet_19FMay16/Documenta
 min_input_size: 64
 mirror: false
 multi_step:
-- [0.005, 3000]
-- [0.02, 10000]
-- [0.002, 15000]
-- [0.001, 20000]
+- [0.005, 10000]
+- [0.02, 430000]
+- [0.002, 730000]
+- [0.001, 1030000]
 net_type: resnet_50
 num_joints: 5
 pairwise_huber_loss: false
