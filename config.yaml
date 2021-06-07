@@ -5,12 +5,16 @@ date: May16
 multianimalproject: false
 
     # Project path (change when moving around)
-project_path: /content/DLC
+project_path: /Users/hadi/Documents/19F_Hadi/19F
 
     # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
-  /Users/hadi/Documents/2b.avi:
-    crop: 0, 1280, 0, 1024
+  /Users/hadi/Documents/19F_Hadi/19F/411.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/19F/211.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/19F/111.mov:
+    crop: 0, 2048, 0, 2048
 bodyparts:
 - Head
 - Body1
@@ -19,7 +23,7 @@ bodyparts:
 - Tail
 start: 0
 stop: 1
-numframes2pick: 100
+numframes2pick: 50
 
     # Plotting configuration
 skeleton:
