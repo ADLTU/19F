@@ -1,0 +1,43 @@
+all_joints:
+- [0]
+- [1]
+- [2]
+- [3]
+- [4]
+all_joints_names: [Head, Body1, Body2, Body3, Tail]
+alpha_r: 0.02
+batch_size: 1
+cropratio: 0.4
+dataset: training-datasets/iteration-0/UnaugmentedDataSet_19FMay16/19F_Hadi95shuffle3.mat
+dataset_type: imgaug
+decay_steps: 30000
+display_iters: 1000
+global_scale: 0.8
+init_weights: /content/DLC/dlc-models/iteration-0/19FMay16-trainset95shuffle3/train/snapshot-4000
+intermediate_supervision: false
+intermediate_supervision_layer: 12
+location_refinement: true
+locref_huber_loss: true
+locref_loss_weight: 0.05
+locref_stdev: 7.2801
+lr_init: 0.0005
+max_input_size: 1500
+metadataset: training-datasets/iteration-0/UnaugmentedDataSet_19FMay16/Documentation_data-19F_95shuffle3.pickle
+min_input_size: 64
+mirror: false
+multi_step:
+- [0.005, 5000]
+- [0.002, 1000]
+- [0.0001, 30000]
+net_type: resnet_50
+num_joints: 5
+pairwise_huber_loss: false
+pairwise_predict: false
+partaffinityfield_predict: false
+pos_dist_thresh: 17
+project_path: /content/DLC
+rotation: 25
+rotratio: 0.4
+save_iters: 50000
+scale_jitter_lo: 0.5
+scale_jitter_up: 1.25
