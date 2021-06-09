@@ -5,7 +5,7 @@ date: May16
 multianimalproject: false
 
     # Project path (change when moving around)
-project_path: /Users/hadi/Documents/19F_Hadi/19F
+project_path: /Users/hadi/Documents/19F_Hadi/19F copy
 
     # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
@@ -21,9 +21,7 @@ video_sets:
     crop: 0, 2048, 0, 2048
 bodyparts:
 - Head
-- Body1
 - Body2
-- Body3
 - Tail
 start: 0
 stop: 1
@@ -32,12 +30,8 @@ numframes2pick: 50
     # Plotting configuration
 skeleton:
 - - Head
-  - Body1
-- - Body1
   - Body2
 - - Body2
-  - Body3
-- - Body3
   - Tail
 skeleton_color: black
 pcutoff: 0.6
