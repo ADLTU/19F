@@ -1,0 +1,4 @@
+model_checkpoint_path: "/content/DLC/dlc-models/iteration-0/19FMay16-trainset95shuffle3/train/snapshot-300"
+all_model_checkpoint_paths: "/content/DLC/dlc-models/iteration-0/19FMay16-trainset95shuffle3/train/snapshot-100"
+all_model_checkpoint_paths: "/content/DLC/dlc-models/iteration-0/19FMay16-trainset95shuffle3/train/snapshot-200"
+all_model_checkpoint_paths: "/content/DLC/dlc-models/iteration-0/19FMay16-trainset95shuffle3/train/snapshot-300"
