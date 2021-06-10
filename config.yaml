@@ -11,6 +11,18 @@ project_path: /Users/hadi/Documents/19F_Hadi/19F
 video_sets:
   /Users/hadi/Documents/19F_Hadi/19F/111.avi:
     crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/19F/112.avi:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/113.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/211.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/212.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/411.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/412.mov:
+    crop: 0, 2048, 0, 2048
 bodyparts:
 - Head
 - Body1
