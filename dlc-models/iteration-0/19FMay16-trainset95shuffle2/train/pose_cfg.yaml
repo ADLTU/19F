@@ -36,7 +36,7 @@ pairwise_huber_loss: false
 pairwise_predict: false
 partaffinityfield_predict: false
 pos_dist_thresh: 17
-project_path: /content/19Fcopy
+project_path: /content/DLC
 rotation: 25
 rotratio: 0.4
 save_iters: 50000
