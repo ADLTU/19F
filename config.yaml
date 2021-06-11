@@ -23,6 +23,10 @@ video_sets:
     crop: 0, 2048, 0, 2048
   /Users/hadi/Documents/19F_Hadi/412.mov:
     crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/114.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/500.mov:
+    crop: 0, 2048, 0, 2048
 bodyparts:
 - Head
 - Body1
