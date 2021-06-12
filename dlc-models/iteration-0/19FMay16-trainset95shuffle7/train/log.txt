@@ -1,4 +1,4 @@
-2021-06-11 04:08:33 Config:
+2021-06-11 18:26:02 Config:
 {'all_joints': [[0], [1], [2], [3], [4]],
  'all_joints_names': ['Head', 'Body1', 'Body2', 'Body3', 'Tail'],
  'alpha_r': 0.02,
@@ -12,7 +12,7 @@
  'display_iters': 1000,
  'fg_fraction': 0.25,
  'global_scale': 0.8,
- 'init_weights': '/content/DLC/dlc-models/iteration-0/19FMay16-trainset95shuffle6/train/snapshot-22000',
+ 'init_weights': '/content/DLC/dlc-models/iteration-0/19FMay16-trainset95shuffle7/train/snapshot-17000',
  'intermediate_supervision': False,
  'intermediate_supervision_layer': 12,
  'location_refinement': True,
@@ -26,7 +26,7 @@
  'metadataset': 'training-datasets/iteration-0/UnaugmentedDataSet_19FMay16/Documentation_data-19F_95shuffle7.pickle',
  'min_input_size': 64,
  'mirror': False,
- 'multi_step': [[0.02, 10000], [0.002, 15000], [0.001, 1030000]],
+ 'multi_step': [[0.002, 2000], [0.001, 1030000]],
  'net_type': 'resnet_50',
  'num_joints': 5,
  'optimizer': 'sgd',
@@ -49,17 +49,28 @@
  'weigh_only_present_joints': False,
  'weigh_part_predictions': False,
  'weight_decay': 0.0001}
-2021-06-11 04:20:37 iteration: 1000 loss: 0.0020 lr: 0.02
-2021-06-11 04:28:41 iteration: 2000 loss: 0.0016 lr: 0.02
-2021-06-11 04:36:49 iteration: 3000 loss: 0.0016 lr: 0.02
-2021-06-11 04:45:10 iteration: 4000 loss: 0.0016 lr: 0.02
-2021-06-11 04:53:09 iteration: 5000 loss: 0.0015 lr: 0.02
-2021-06-11 05:01:26 iteration: 6000 loss: 0.0014 lr: 0.02
-2021-06-11 05:09:38 iteration: 7000 loss: 0.0014 lr: 0.02
-2021-06-11 05:17:40 iteration: 8000 loss: 0.0014 lr: 0.02
-2021-06-11 05:25:48 iteration: 9000 loss: 0.0014 lr: 0.02
-2021-06-11 05:33:47 iteration: 10000 loss: 0.0014 lr: 0.02
-2021-06-11 05:41:56 iteration: 11000 loss: 0.0012 lr: 0.002
-2021-06-11 05:50:08 iteration: 12000 loss: 0.0012 lr: 0.002
-2021-06-11 05:58:05 iteration: 13000 loss: 0.0011 lr: 0.002
-2021-06-11 06:06:02 iteration: 14000 loss: 0.0011 lr: 0.002
+2021-06-11 18:34:15 iteration: 1000 loss: 0.0010 lr: 0.002
+2021-06-11 18:42:14 iteration: 2000 loss: 0.0011 lr: 0.002
+2021-06-11 18:50:13 iteration: 3000 loss: 0.0011 lr: 0.001
+2021-06-11 18:58:19 iteration: 4000 loss: 0.0011 lr: 0.001
+2021-06-11 19:06:26 iteration: 5000 loss: 0.0010 lr: 0.001
+2021-06-11 19:14:32 iteration: 6000 loss: 0.0010 lr: 0.001
+2021-06-11 19:22:40 iteration: 7000 loss: 0.0010 lr: 0.001
+2021-06-11 19:30:42 iteration: 8000 loss: 0.0010 lr: 0.001
+2021-06-11 19:38:43 iteration: 9000 loss: 0.0010 lr: 0.001
+2021-06-11 19:46:54 iteration: 10000 loss: 0.0010 lr: 0.001
+2021-06-11 19:54:57 iteration: 11000 loss: 0.0011 lr: 0.001
+2021-06-11 20:03:16 iteration: 12000 loss: 0.0010 lr: 0.001
+2021-06-11 20:11:09 iteration: 13000 loss: 0.0010 lr: 0.001
+2021-06-11 20:18:56 iteration: 14000 loss: 0.0010 lr: 0.001
+2021-06-11 20:26:52 iteration: 15000 loss: 0.0010 lr: 0.001
+2021-06-11 20:34:52 iteration: 16000 loss: 0.0010 lr: 0.001
+2021-06-11 20:42:51 iteration: 17000 loss: 0.0010 lr: 0.001
+2021-06-11 20:50:52 iteration: 18000 loss: 0.0010 lr: 0.001
+2021-06-11 20:58:51 iteration: 19000 loss: 0.0011 lr: 0.001
+2021-06-11 21:06:46 iteration: 20000 loss: 0.0010 lr: 0.001
+2021-06-11 21:15:02 iteration: 21000 loss: 0.0010 lr: 0.001
+2021-06-11 21:23:05 iteration: 22000 loss: 0.0010 lr: 0.001
+2021-06-11 21:31:05 iteration: 23000 loss: 0.0010 lr: 0.001
+2021-06-11 21:39:10 iteration: 24000 loss: 0.0010 lr: 0.001
+2021-06-11 21:46:56 iteration: 25000 loss: 0.0010 lr: 0.001
