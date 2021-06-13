@@ -27,6 +27,30 @@ video_sets:
     crop: 0, 2048, 0, 2048
   /Users/hadi/Documents/19F_Hadi/500.mov:
     crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/121.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/131.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/141.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/151.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/221.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/231.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/241.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/251.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/421.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/431.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/441.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/451.mov:
+    crop: 0, 2048, 0, 2048
 bodyparts:
 - Head
 - Body1
