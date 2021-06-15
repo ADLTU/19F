@@ -10,7 +10,7 @@ batch_size: 1
 cropratio: 0.4
 dataset: training-datasets/iteration-0/UnaugmentedDataSet_19FMay16/19F_Hadi95shuffle8.mat
 dataset_type: imgaug
-decay_steps: 3000
+decay_steps: 6000
 display_iters: 1000
 global_scale: 0.8
 init_weights: /content/DLC/dlc-models/iteration-0/19FMay16-trainset95shuffle8/train/snapshot-10000
@@ -26,9 +26,7 @@ metadataset: training-datasets/iteration-0/UnaugmentedDataSet_19FMay16/Documenta
 min_input_size: 64
 mirror: false
 multi_step:
-- [0.005, 1000]
-- [0.02,  7000]
-- [0.002, 12000]
+- [0.002, 10000]
 - [0.001, 1030000]
 net_type: resnet_50
 num_joints: 5
