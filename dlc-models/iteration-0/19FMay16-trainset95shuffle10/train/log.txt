@@ -1,0 +1,91 @@
+2021-06-17 23:25:17 Config:
+{'all_joints': [[0], [1], [2], [3], [4]],
+ 'all_joints_names': ['Head', 'Body1', 'Body2', 'Body3', 'Tail'],
+ 'alpha_r': 0.02,
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_19FMay16/19F_Hadi95shuffle10.mat',
+ 'dataset_type': 'imgaug',
+ 'decay_steps': 7000,
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': '/content/DLC/dlc-models/iteration-0/19FMay16-trainset95shuffle9/train/snapshot-25000',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets/iteration-0/UnaugmentedDataSet_19FMay16/Documentation_data-19F_95shuffle10.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'multi_step': [[0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 5,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': False,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'pos_dist_thresh': 17,
+ 'project_path': '/content/DLC',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': '/content/DLC/dlc-models/iteration-0/19FMay16-trainset95shuffle10/train/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2021-06-17 23:32:56 iteration: 1000 loss: 0.0012 lr: 0.001
+2021-06-17 23:39:48 iteration: 2000 loss: 0.0011 lr: 0.001
+2021-06-17 23:46:49 iteration: 3000 loss: 0.0011 lr: 0.001
+2021-06-17 23:54:08 iteration: 4000 loss: 0.0011 lr: 0.001
+2021-06-18 00:01:14 iteration: 5000 loss: 0.0011 lr: 0.001
+2021-06-18 00:08:26 iteration: 6000 loss: 0.0011 lr: 0.001
+2021-06-18 00:15:27 iteration: 7000 loss: 0.0011 lr: 0.001
+2021-06-18 00:22:28 iteration: 8000 loss: 0.0010 lr: 0.001
+2021-06-18 00:29:31 iteration: 9000 loss: 0.0010 lr: 0.001
+2021-06-18 00:36:33 iteration: 10000 loss: 0.0010 lr: 0.001
+2021-06-18 00:43:42 iteration: 11000 loss: 0.0010 lr: 0.001
+2021-06-18 00:50:55 iteration: 12000 loss: 0.0010 lr: 0.001
+2021-06-18 00:57:58 iteration: 13000 loss: 0.0010 lr: 0.001
+2021-06-18 01:04:53 iteration: 14000 loss: 0.0010 lr: 0.001
+2021-06-18 01:11:47 iteration: 15000 loss: 0.0010 lr: 0.001
+2021-06-18 01:18:52 iteration: 16000 loss: 0.0010 lr: 0.001
+2021-06-18 01:25:38 iteration: 17000 loss: 0.0010 lr: 0.001
+2021-06-18 01:32:36 iteration: 18000 loss: 0.0010 lr: 0.001
+2021-06-18 01:39:30 iteration: 19000 loss: 0.0010 lr: 0.001
+2021-06-18 01:46:30 iteration: 20000 loss: 0.0010 lr: 0.001
+2021-06-18 01:53:20 iteration: 21000 loss: 0.0010 lr: 0.001
+2021-06-18 02:00:13 iteration: 22000 loss: 0.0010 lr: 0.001
+2021-06-18 02:06:49 iteration: 23000 loss: 0.0010 lr: 0.001
+2021-06-18 02:13:35 iteration: 24000 loss: 0.0010 lr: 0.001
+2021-06-18 02:20:16 iteration: 25000 loss: 0.0010 lr: 0.001
+2021-06-18 02:26:53 iteration: 26000 loss: 0.0010 lr: 0.001
+2021-06-18 02:33:29 iteration: 27000 loss: 0.0010 lr: 0.001
+2021-06-18 02:40:14 iteration: 28000 loss: 0.0010 lr: 0.001
+2021-06-18 02:46:44 iteration: 29000 loss: 0.0010 lr: 0.001
+2021-06-18 02:53:37 iteration: 30000 loss: 0.0010 lr: 0.001
+2021-06-18 03:00:15 iteration: 31000 loss: 0.0010 lr: 0.001
+2021-06-18 03:06:40 iteration: 32000 loss: 0.0010 lr: 0.001
+2021-06-18 03:13:19 iteration: 33000 loss: 0.0010 lr: 0.001
+2021-06-18 03:19:57 iteration: 34000 loss: 0.0010 lr: 0.001
+2021-06-18 03:26:30 iteration: 35000 loss: 0.0010 lr: 0.001
+2021-06-18 03:33:05 iteration: 36000 loss: 0.0010 lr: 0.001
+2021-06-18 03:39:43 iteration: 37000 loss: 0.0010 lr: 0.001
+2021-06-18 03:46:09 iteration: 38000 loss: 0.0010 lr: 0.001
+2021-06-18 03:53:04 iteration: 39000 loss: 0.0010 lr: 0.001
+2021-06-18 03:59:42 iteration: 40000 loss: 0.0010 lr: 0.001
