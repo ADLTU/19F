@@ -9,65 +9,11 @@ project_path: /Users/hadi/Documents/19F_Hadi/19F
 
     # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
-  /Users/hadi/Documents/19F_Hadi/19F/111.avi:
+  /Users/hadi/Documents/e11.mov:
     crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/19F/112.avi:
+  /Users/hadi/Documents/w11.mov:
     crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/113.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/211.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/212.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/411.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/412.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/114.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/500.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/121.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/131.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/141.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/151.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/221.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/231.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/241.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/251.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/421.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/431.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/441.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/451.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/501.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/452.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/442.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/432.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/422.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/242.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/232.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/222.mov:
-    crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/4523.mov:
+  /Users/hadi/Documents/c12.mov:
     crop: 0, 2048, 0, 2048
 bodyparts:
 - Head
@@ -77,7 +23,7 @@ bodyparts:
 - Tail
 start: 0
 stop: 1
-numframes2pick: 50
+numframes2pick: 25
 
     # Plotting configuration
 skeleton:
