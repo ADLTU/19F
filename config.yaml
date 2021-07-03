@@ -9,11 +9,15 @@ project_path: /Users/hadi/Documents/19F_Hadi/19F
 
     # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
-  /Users/hadi/Documents/e11.mov:
+  /Users/hadi/Documents/19F_Hadi/w1.mov:
     crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/w11.mov:
+  /Users/hadi/Documents/19F_Hadi/c1.mov:
     crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/c12.mov:
+  /Users/hadi/Documents/19F_Hadi/e1.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/ic1.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/ie1.mov:
     crop: 0, 2048, 0, 2048
 bodyparts:
 - Head
@@ -23,7 +27,7 @@ bodyparts:
 - Tail
 start: 0
 stop: 1
-numframes2pick: 25
+numframes2pick: 50
 
     # Plotting configuration
 skeleton:
