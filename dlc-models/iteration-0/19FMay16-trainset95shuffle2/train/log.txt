@@ -1,4 +1,4 @@
-2021-06-20 00:57:06 Config:
+2021-07-01 09:01:12 Config:
 {'all_joints': [[0], [1], [2], [3], [4]],
  'all_joints_names': ['Head', 'Body1', 'Body2', 'Body3', 'Tail'],
  'alpha_r': 0.02,
@@ -26,7 +26,7 @@
  'metadataset': 'training-datasets/iteration-0/UnaugmentedDataSet_19FMay16/Documentation_data-19F_95shuffle2.pickle',
  'min_input_size': 64,
  'mirror': False,
- 'multi_step': [[0.002, 5000], [0.001, 1030000]],
+ 'multi_step': [[0.005, 5000], [0.02, 10000], [0.002, 15000], [0.001, 1030000]],
  'net_type': 'resnet_50',
  'num_joints': 5,
  'optimizer': 'sgd',
@@ -49,22 +49,27 @@
  'weigh_only_present_joints': False,
  'weigh_part_predictions': False,
  'weight_decay': 0.0001}
-2021-06-20 01:03:49 iteration: 1000 loss: 0.0009 lr: 0.002
-2021-06-20 01:09:50 iteration: 2000 loss: 0.0009 lr: 0.002
-2021-06-20 01:16:07 iteration: 3000 loss: 0.0009 lr: 0.002
-2021-06-20 01:22:35 iteration: 4000 loss: 0.0009 lr: 0.002
-2021-06-20 01:28:42 iteration: 5000 loss: 0.0009 lr: 0.002
-2021-06-20 01:34:57 iteration: 6000 loss: 0.0009 lr: 0.001
-2021-06-20 01:41:00 iteration: 7000 loss: 0.0009 lr: 0.001
-2021-06-20 01:47:02 iteration: 8000 loss: 0.0009 lr: 0.001
-2021-06-20 01:53:08 iteration: 9000 loss: 0.0009 lr: 0.001
-2021-06-20 01:59:13 iteration: 10000 loss: 0.0009 lr: 0.001
-2021-06-20 02:05:26 iteration: 11000 loss: 0.0009 lr: 0.001
-2021-06-20 02:11:38 iteration: 12000 loss: 0.0009 lr: 0.001
-2021-06-20 02:17:47 iteration: 13000 loss: 0.0009 lr: 0.001
-2021-06-20 02:23:56 iteration: 14000 loss: 0.0009 lr: 0.001
-2021-06-20 02:30:01 iteration: 15000 loss: 0.0009 lr: 0.001
-2021-06-20 02:35:26 Config:
+2021-07-01 09:07:45 iteration: 1000 loss: 0.0013 lr: 0.005
+2021-07-01 09:13:32 iteration: 2000 loss: 0.0011 lr: 0.005
+2021-07-01 09:19:26 iteration: 3000 loss: 0.0011 lr: 0.005
+2021-07-01 09:25:35 iteration: 4000 loss: 0.0010 lr: 0.005
+2021-07-01 09:31:24 iteration: 5000 loss: 0.0010 lr: 0.005
+2021-07-01 09:37:22 iteration: 6000 loss: 0.0012 lr: 0.02
+2021-07-01 09:43:08 iteration: 7000 loss: 0.0011 lr: 0.02
+2021-07-01 09:48:57 iteration: 8000 loss: 0.0011 lr: 0.02
+2021-07-01 09:54:48 iteration: 9000 loss: 0.0011 lr: 0.02
+2021-07-01 10:00:38 iteration: 10000 loss: 0.0011 lr: 0.02
+2021-07-01 10:06:33 iteration: 11000 loss: 0.0009 lr: 0.002
+2021-07-01 10:12:28 iteration: 12000 loss: 0.0009 lr: 0.002
+2021-07-01 10:18:19 iteration: 13000 loss: 0.0009 lr: 0.002
+2021-07-01 10:24:09 iteration: 14000 loss: 0.0009 lr: 0.002
+2021-07-01 10:29:59 iteration: 15000 loss: 0.0009 lr: 0.002
+2021-07-01 10:35:56 iteration: 16000 loss: 0.0009 lr: 0.001
+2021-07-01 10:41:38 iteration: 17000 loss: 0.0008 lr: 0.001
+2021-07-01 10:47:30 iteration: 18000 loss: 0.0009 lr: 0.001
+2021-07-01 10:53:21 iteration: 19000 loss: 0.0009 lr: 0.001
+2021-07-01 10:59:14 iteration: 20000 loss: 0.0009 lr: 0.001
+2021-07-01 11:05:14 Config:
 {'all_joints': [[0], [1], [2], [3], [4]],
  'all_joints_names': ['Head', 'Body1', 'Body2', 'Body3', 'Tail'],
  'batch_size': 1,
