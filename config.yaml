@@ -15,9 +15,17 @@ video_sets:
     crop: 0, 2048, 0, 2048
   /Users/hadi/Documents/19F_Hadi/e1.mov:
     crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/ic1.mov:
+  /Users/hadi/Documents/19F_Hadi/c2.mov:
     crop: 0, 2048, 0, 2048
-  /Users/hadi/Documents/19F_Hadi/ie1.mov:
+  /Users/hadi/Documents/19F_Hadi/e2.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/w2.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/w11.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/c12.mov:
+    crop: 0, 2048, 0, 2048
+  /Users/hadi/Documents/19F_Hadi/e11.mov:
     crop: 0, 2048, 0, 2048
 bodyparts:
 - Head
@@ -27,7 +35,7 @@ bodyparts:
 - Tail
 start: 0
 stop: 1
-numframes2pick: 50
+numframes2pick: 25
 
     # Plotting configuration
 skeleton:
@@ -41,7 +49,7 @@ skeleton:
   - Tail
 skeleton_color: black
 pcutoff: 0.6
-dotsize: 5
+dotsize: 3
 alphavalue: 0.7
 colormap: plasma
 
