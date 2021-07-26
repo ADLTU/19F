@@ -41,6 +41,22 @@ video_sets:
     crop: 0, 2048, 0, 2048
   /Users/hadi/Documents/19F_Hadi/out.mp4:
     crop: 0, 2048, 0, 2048
+  /content/drive/MyDrive/3.mp4:
+    crop: 0, 2048, 0, 2048
+  /content/drive/MyDrive/5.mp4:
+    crop: 0, 2048, 0, 2048
+  /content/drive/MyDrive/6.mp4:
+    crop: 0, 2048, 0, 2048
+  /content/drive/MyDrive/8.mp4:
+    crop: 0, 2048, 0, 2048
+  /content/drive/MyDrive/10.mp4:
+    crop: 0, 2048, 0, 2048
+  /content/drive/MyDrive/11.mp4:
+    crop: 0, 2048, 0, 2048
+  /content/drive/MyDrive/15.mp4:
+    crop: 0, 2048, 0, 2048
+  /content/drive/MyDrive/18.mp4:
+    crop: 0, 2048, 0, 2048
 bodyparts:
 - Head
 - Body1
