@@ -8,12 +8,12 @@ all_joints_names: [Head, Body1, Body2, Body3, Tail]
 alpha_r: 0.02
 batch_size: 1
 cropratio: 0.4
-dataset: training-datasets/iteration-0/UnaugmentedDataSet_19FMay16/19F_Hadi95shuffle3.mat
+dataset: training-datasets/iteration-0/UnaugmentedDataSet_19FMay16/19F_Hadi95shuffle4.mat
 dataset_type: imgaug
 decay_steps: 5000
 display_iters: 1000
 global_scale: 0.8
-init_weights: /content/DLC/dlc-models/iteration-0/19FMay16-trainset95shuffle2/train/snapshot-20000
+init_weights: /content/DLC/dlc-models/iteration-0/19FMay16-trainset95shuffle4/train/snapshot-20000
 intermediate_supervision: false
 intermediate_supervision_layer: 12
 location_refinement: true
@@ -22,7 +22,7 @@ locref_loss_weight: 0.05
 locref_stdev: 7.2801
 lr_init: 0.0005
 max_input_size: 1500
-metadataset: training-datasets/iteration-0/UnaugmentedDataSet_19FMay16/Documentation_data-19F_95shuffle3.pickle
+metadataset: training-datasets/iteration-0/UnaugmentedDataSet_19FMay16/Documentation_data-19F_95shuffle4.pickle
 min_input_size: 64
 mirror: false
 multi_step:
